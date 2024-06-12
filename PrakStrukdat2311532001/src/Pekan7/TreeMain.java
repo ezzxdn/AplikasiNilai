@@ -6,10 +6,8 @@ public class TreeMain {
 		BTree tree = new BTree();
 		System.out.println("Jumlah simpul pohon: ");
 		System.out.println(tree.countNodes());
-		//menambahkan simpul data 1
-		Node root = new Node(1);
-		//menjadikan simpul 1 sebagai root
-		tree.setRoot(root);
+		Node root = new Node(1); //menambahkan simpul data 1
+		tree.setRoot(root); //menjadikan simpul 1 sebagai root
 		System.out.println("Jumlah simpul jika hanya ada root: ");
 		System.out.println(tree.countNodes());
 		Node node2 = new Node(2);
